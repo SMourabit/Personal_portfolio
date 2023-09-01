@@ -9,13 +9,14 @@ import Resume from './Components/Resume';
 
 function App() {
   return (
-    <div className="App">
+    <div className="flex flex-col gap-0">
     <Header/>
     <Home />
     <About />
+    {/*
     <Resume />
     <Portfolio />
-    <Contact />
+    <Contact /> */}
 
     </div>
   );

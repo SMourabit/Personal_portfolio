@@ -1,0 +1,19 @@
+/* for lg screens */
+.tooltip {
+    display: none;
+    /* position: absolute; */
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    z-index: 1;
+    top: -25px; /* Adjust the positioning as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .icon-link:hover .tooltip {
+    display: block;
+  }
+  

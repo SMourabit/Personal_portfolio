@@ -14,7 +14,7 @@ module.exports = {
         'green-dark': '#0F5132',
         'green-medium': '#344E41',
         'green-light': '#9CAF88',
-        'green-pale': '#C6EDC3',
+        'green-pale': '#CBD5C0',
       },
     },
   },
