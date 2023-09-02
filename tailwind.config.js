@@ -4,6 +4,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '640px', // Small screens
+        'md': '768px', // Medium screens
+        'lg': '1024px', // Large screens
+        'xl': '1280px', // Extra-large screens
+      },
       keyframes: {'rotateAndDeform': {
 
         '0%':{transform: 'scale(1) rotate(0deg)'},
@@ -51,6 +57,12 @@ module.exports = {
         'green-light': '#819171',
         'green-pale': '#CBD5C0',
       },
+      colors:{
+        'green-dark': '#3A5A40',
+        'green-medium': '#344E41',
+        'green-light': '#819171',
+        'green-pale': '#CBD5C0',
+      }
     },
   },
   plugins: [],

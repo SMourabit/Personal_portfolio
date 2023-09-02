@@ -19,8 +19,8 @@ function Portfolio() {
   };
 
   return (
-    <div className='h-[69rem]  mt-5 p-6 animate-showUp' id='Portfolio'>
-      <h2 className='text-center text-[25px] font-bold mb-6 '>Projects</h2>
+    <div className='h-[63rem]  mt-5 p-6 animate-showUp' id='Portfolio'>
+      <h2 className='text-center text-[25px] font-bold mb-6 bg-gradient-to-r from-green-medium from-10% to-green-light to-60% text-transparent bg-clip-text '>Projects</h2>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
         {websites.map((e, i) => (
           <div key={e} className='bg-gray-300 rounded-lg overflow-hidden shadow-lg'>

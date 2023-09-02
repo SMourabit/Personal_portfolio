@@ -10,7 +10,7 @@ function About() {
 
         <div className="flex flex-col items-center text-center relative ">
           <div class="">
-            <h2 className='text-center text-[25px] font-bold mb-6 '>About Me</h2>
+            <h2 className='text-center text-[25px] font-bold mb-6 bg-gradient-to-r from-green-medium from-10% to-green-light to-60% text-transparent bg-clip-text'>About Me</h2>
             <div className='w-full text-center mt-2 flex justify-center'>
 
             <img src="3.jpg" alt="" className='rounded-sm w-[12rem] h-[7rem]'/>

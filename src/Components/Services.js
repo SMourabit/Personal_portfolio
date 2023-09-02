@@ -6,7 +6,7 @@ import { GrCode } from 'react-icons/gr';
 function Services() {
   return (
     <div className='h-[30rem] animate-showUp' id='Skills'>
-      <h2 className='text-center text-[25px] font-bold mb-6 '>Skills</h2>
+      <h2 className='text-center text-[25px] font-bold mb-6 bg-gradient-to-r from-green-medium from-10% to-green-light to-60% text-transparent bg-clip-text '>Skills</h2>
 
       <div className='grid grid-cols-1 md:grid-cols-3 place-items-left ml-2  mt-[-2.75rem] '>
 
