@@ -7,7 +7,6 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { FiSettings } from "react-icons/fi";
 import { GrProjects } from "react-icons/gr";
 import { MdOutlineEmail } from "react-icons/md";
-import './Header.css'
 function Header() {
 
   const [isClicked, setClicked] = useState({ menuIcon: true, exitIcon: false });
@@ -18,7 +17,7 @@ function Header() {
   };
   return (
     <div >
-      <div className="fixed bottom-[88px] w-full border-t-[2px] border-indigo-500  bg-white h-[2.5rem] z-20">
+      <div className="fixed bottom-[88px] w-full border-t-[2px]   bg-white h-[2.5rem] z-20">
         <h1 className="font-bold p-5 mt-[-0.8rem]">SM</h1>
         <button className="text-2xl absolute bottom-[0.5rem] right-2  z-40" onClick={() => { Toggle(); }}>
           {isClicked.menuIcon ? (<GiHamburgerMenu className="lg:hidden" />) : (<MdOutlineClose className="lg:hidden " />)}
@@ -30,35 +29,26 @@ function Header() {
           <div className={`flex justify-center h-10 z-20 	fixed bottom-[6.5rem] p-8 w-full animate-showUp bg-white `}>
             <ul className="flex gap-7">
               <li>
-                <a href="/" className='icon-link  hover:text-bg-darkRed duration-500' title="Home">
+                <a href="#Home" className='icon-link  hover:text-bg-darkRed duration-500' title="Home">
                   <BiSolidHome className="text-[26px]" />
-                  <span className="tooltip">Home</span>
                 </a>
               </li>
               <li>
-                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Profile">
+                <a href="#About" className='icon-link hover:text-bg-darkRed duration-500' title="Profile">
                   <BsFillPersonFill className="text-[26px]" />
-                  <span className="tooltip">Profile</span>
                 </a>
               </li>
               <li>
-                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Settings">
+                <a href="#Skills" className='icon-link hover:text-bg-darkRed duration-500' title="Settings">
                   <FiSettings className="text-[26px]"/>
-                  <span className="tooltip">Settings</span>
                 </a>
               </li>
               <li>
-                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Projects">
+                <a href="#Portfolio" className='icon-link hover:text-bg-darkRed duration-500' title="Projects">
                   <GrProjects className="text-[26px]"/>
-                  <span className="tooltip">Projects</span>
                 </a>
               </li>
-              <li>
-                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Email">
-                  <MdOutlineEmail className="text-[26px]" />
-                  <span className="tooltip">Email</span>
-                </a>
-              </li>
+           
             </ul>
           </div>
 

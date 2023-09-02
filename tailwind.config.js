@@ -17,6 +17,10 @@ module.exports = {
         '0% ,100%':{transform:'translate(-40px)'},
         '50%':{transform:'translateX(0)'}
       },
+      'transR':{
+        '0% ,100%':{transform:'translate(-10px)'},
+        '50%':{transform:'translateX(0)'}
+      },
       'showUp':{
         '0%': { transform: 'translateY(20px)', opacity: 0 },
         '100%': { transform: 'translateY(0)', opacity: 1 },
@@ -28,6 +32,7 @@ module.exports = {
       animation :{
         'rotate': 'rotateAndDeform 2s linear infinite ' ,
         'trans-right': 'trans 1.5s ease-in-out infinite',
+        'transR': 'trans 1.8s ease-in-out infinite',
         'trans-left':'transL 1.5s ease-in-out infinite',
         'showUp': 'showUp 0.5s ease-in-out', // Durée de l'animation et l'interpolation
 

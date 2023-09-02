@@ -3,9 +3,10 @@ import React, { useState } from 'react';
 function Portfolio() {
   const [tool, setTool] = useState(null); // Use null to initially hide the div
   const websites = [
-    {link:'https://soukaina203.github.io/M1/',techs:'ReactJs TailwindCSS'},
-    {link:'https://soukaina203.github.io/cinema/',techs:'ReactJs TailwindCSS'},
-    {link:'https://www.linkedin.com/in/soukaina-mourabit-253a33240/recent-activity/all/',techs:'ReactJs TailwindCSS Laravel Mysql'}
+    {link:'https://soukaina203.github.io/M1/',techs:'FrontEnd website using ReactJs TailwindCSS'},
+    {link:'https://soukaina203.github.io/cinema/',techs:'FrontEnd website using ReactJs TailwindCSS'},
+    {link:'https://www.linkedin.com/in/soukaina-mourabit-253a33240/recent-activity/all/',
+    techs:'FullStack renting website using ReactJs TailwindCSS Laravel Mysql'}
   ];
 
   const toggleTool = (index) => {
@@ -18,8 +19,8 @@ function Portfolio() {
   };
 
   return (
-    <div className='h-[69rem] p-6 animate-showUp'>
-      <h2 className='text-center text-3xl font-bold mb-6'>Portfolio</h2>
+    <div className='h-[69rem]  mt-5 p-6 animate-showUp' id='Portfolio'>
+      <h2 className='text-center text-[25px] font-bold mb-6 '>Projects</h2>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
         {websites.map((e, i) => (
           <div key={e} className='bg-gray-300 rounded-lg overflow-hidden shadow-lg'>

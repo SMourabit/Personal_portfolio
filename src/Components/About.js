@@ -4,9 +4,9 @@ import Services from './Services';
 
 function About() {
   return (
-    <div className=' border-t-4 border-indigo-500 h-[26rem]  '>
+    <div className=' h-[26rem]  animate-showUp' id='About'>
 
-      <div className="flex items-center justify-center    text-green-dark z-0">
+      <div className="flex items-center justify-center text-green-dark z-0">
 
         <div className="flex flex-col items-center text-center relative ">
           <div class="">
