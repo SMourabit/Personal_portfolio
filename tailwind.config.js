@@ -4,6 +4,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      @keyframes: {rotateAndDeform {
+        0% {
+          transform: scale(1) rotate(0deg);
+        }
+        50% {
+          transform: scale(1.5) rotate(180deg);
+        }
+        100% {
+          transform: scale(1) rotate(360deg);
+        }
+      }},
+      
+      animation :{
+        animation: rotateAndDeform 5s linear infinite;
+      },
+      
+     
       screens: {
         'sm': '640px', // Small screens
         'md': '768px', // Medium screens
