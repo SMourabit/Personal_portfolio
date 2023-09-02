@@ -22,9 +22,8 @@ function About() {
           <div className="flex items-center flex-col mt-4 space-x-4 gap-2">
 
 
-            <button type="button" class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none
-           focus:ring-gray-100 font-medium rounded-lg text-sm px-4 py-1.5 text-center inline-flex items-center dark:focus:ring-gray-600
-            dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2">
+            <button type="button" class="text-white bg-green-light ml-3   border border-gray-200 focus:ring-4 focus:outline-none
+           focus:ring-gray-100 font-medium rounded-lg text-sm px-4 py-1.5 text-center inline-flex items-center">
               <a href="cv.pdf" download className='flex flex-row gap-2 '>
                 <BsDownload className="text-2xl " />
                 Download CV
