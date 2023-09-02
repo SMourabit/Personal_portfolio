@@ -6,7 +6,6 @@ import { BiSolidHome } from "react-icons/bi";
 import { BsFillPersonFill } from "react-icons/bs";
 import { FiSettings } from "react-icons/fi";
 import { GrProjects } from "react-icons/gr";
-import { MdOutlineEmail } from "react-icons/md";
 function Header() {
 
   const [isClicked, setClicked] = useState({ menuIcon: true, exitIcon: false });
