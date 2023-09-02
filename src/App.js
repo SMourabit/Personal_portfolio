@@ -13,11 +13,13 @@ function App() {
     <div className="flex flex-col gap-0">
     <Header/>
     <Home />
-    {/* <About />
-    <Services /> */}
-    {/*
-    <Resume />
+    <About />
+    <Services />
     <Portfolio />
+
+    {/* 
+    */}
+    {/*
     <Contact /> */}
 
     </div>
