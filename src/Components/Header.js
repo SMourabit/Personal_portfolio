@@ -17,53 +17,53 @@ function Header() {
 
   };
   return (
-    <div className="">
-      <div>
-        <h1 className="font-bold p-5">SM</h1>
-        <button className="text-2xl absolute right-5 top-6 z-40" onClick={() => { Toggle(); }}>
+    <div >
+      <div className="fixed bottom-[88px] w-full  bg-purple-500 h-[2.5rem] z-20">
+        <h1 className="font-bold p-5 mt-[-0.6rem]">SM</h1>
+        <button className="text-2xl absolute bottom-[0.5rem] right-2  z-40" onClick={() => { Toggle(); }}>
           {isClicked.menuIcon ? (<GiHamburgerMenu className="lg:hidden" />) : (<MdOutlineClose className="lg:hidden " />)}
         </button>
 
         {isClicked.menuIcon}
         {isClicked.menuIcon ? " "
           :
-<div className={`flex justify-center h-10 z-20	 `}>
-          <ul className="flex gap-4">
-            <li>
-              <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Home">
-                <BiSolidHome className="BiSolidHome" />
-                <span className="tooltip">Home</span>
-              </a>
-            </li>
-            <li>
-              <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Profile">
-                <BsFillPersonFill/>
-                <span className="tooltip">Profile</span>
-              </a>
-            </li>
-            <li>
-              <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Settings">
-                <FiSettings />
-                <span className="tooltip">Settings</span>
-              </a>
-            </li>
-            <li>
-              <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Projects">
-                <GrProjects/>
-                <span className="tooltip">Projects</span>
-              </a>
-            </li>
-            <li>
-              <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Email">
-                <MdOutlineEmail className=""/>
-                <span className="tooltip">Email</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        
+          <div className={`flex justify-center h-10 z-20	 `}>
+            <ul className="flex gap-4">
+              <li>
+                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Home">
+                  <BiSolidHome className="BiSolidHome" />
+                  <span className="tooltip">Home</span>
+                </a>
+              </li>
+              <li>
+                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Profile">
+                  <BsFillPersonFill />
+                  <span className="tooltip">Profile</span>
+                </a>
+              </li>
+              <li>
+                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Settings">
+                  <FiSettings />
+                  <span className="tooltip">Settings</span>
+                </a>
+              </li>
+              <li>
+                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Projects">
+                  <GrProjects />
+                  <span className="tooltip">Projects</span>
+                </a>
+              </li>
+              <li>
+                <a href="/" className='icon-link hover:text-bg-darkRed duration-500' title="Email">
+                  <MdOutlineEmail className="" />
+                  <span className="tooltip">Email</span>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        
+
+
         }
         {/* For Large Screens */}
         <div className="hidden md:hidden  lg:flex relative top-[-5rem] justify-center w-[100%] h-28
