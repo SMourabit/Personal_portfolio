@@ -4,7 +4,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 function Home() {
   return (
-    <div className="flex w-full flex-col  text-green-dark z-0 h-[33rem]">
+    <div className="flex w-full flex-col  text-green-dark z-0 h-[30rem]">
       <div className='flex flex-row w-full'>
         <div className='flex flex-col absolute top-[5.5rem] left-[0.78rem] w-1/4 gap-3 
   '>
