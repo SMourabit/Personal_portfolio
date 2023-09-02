@@ -5,7 +5,7 @@ import { GrCode } from 'react-icons/gr';
 
 function Services() {
   return (
-    <div className='h-content   bg-slate-400 gap-4'>
+    <div className='h-content  '>
       <h2 className='text-center text-[25px] font-bold mb-6 '>Skills</h2>
 
       <div className='grid grid-cols-1 md:grid-cols-3 place-items-center gap-4'>

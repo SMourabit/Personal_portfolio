@@ -6,15 +6,15 @@ function Home() {
   return (
     <div className="flex w-full flex-col  text-green-dark z-0 h-[33rem]">
       <div className='flex flex-row w-full'>
-        <div className='flex flex-col absolute top-14 left-2 w-1/4 gap-3 
+        <div className='flex flex-col absolute top-[5.5rem] left-[0.78rem] w-1/4 gap-3 
   '>
-          <MdOutlineEmail className="text-[36px]" />
-          <BsLinkedin className="text-[34px]" />
-          <BsGithub className="text-[36px] " />
+          <MdOutlineEmail className="text-[25px]" />
+          <BsLinkedin className="text-[25px]" />
+          <BsGithub className="text-[25px] " />
 
         </div>
         <div className='w-[100%] group '>
-          <div class="w-[10rem] h-[10rem] relative top-11 left-24 rounded-full bg-blue-500 ">
+          <div class="w-[10rem] h-[10rem] relative top-11 left-[5rem] rounded-full bg-green-light ">
 
           </div>
 
@@ -28,9 +28,9 @@ function Home() {
           development, having the privilege of collaborating with diverse teams
         </p>
         <div className=''>
-        <button type="button" class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none
-           focus:ring-gray-100 font-medium rounded-lg text-sm px-4 py-1.5 text-center inline-flex items-center dark:focus:ring-gray-600
-            dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2 ml-3">
+        <button type="button" class="text-white bg-green-light ml-3   border border-gray-200 focus:ring-4 focus:outline-none
+           focus:ring-gray-100 font-medium rounded-lg text-sm px-4 py-1.5 text-center inline-flex items-center 
+            ">
               <a href="cv.pdf" download className='flex flex-row gap-2 '>
                 Contact Me
 

@@ -16,6 +16,11 @@ module.exports = {
       'transL':{
         '0% ,100%':{transform:'translate(-40px)'},
         '50%':{transform:'translateX(0)'}
+      },
+      'showUp':{
+        '0%': { transform: 'translateY(20px)', opacity: 0 },
+        '100%': { transform: 'translateY(0)', opacity: 1 },
+
       }
 
      },
@@ -23,7 +28,9 @@ module.exports = {
       animation :{
         'rotate': 'rotateAndDeform 2s linear infinite ' ,
         'trans-right': 'trans 1.5s ease-in-out infinite',
-        'trans-left':'transL 1.5s ease-in-out infinite'
+        'trans-left':'transL 1.5s ease-in-out infinite',
+        'showUp': 'showUp 0.5s ease-in-out', // Durée de l'animation et l'interpolation
+
       },
       
      
@@ -34,9 +41,9 @@ module.exports = {
         'xl': '1280px', // Extra-large screens
       },
       backgroundColor: {
-        'green-dark': '#0F5132',
+        'green-dark': '#3A5A40',
         'green-medium': '#344E41',
-        'green-light': '#9CAF88',
+        'green-light': '#819171',
         'green-pale': '#CBD5C0',
       },
     },
