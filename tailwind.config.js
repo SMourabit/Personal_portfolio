@@ -4,20 +4,26 @@ module.exports = {
   ],
   theme: {
     extend: {
-      @keyframes: {rotateAndDeform {
-        0% {
-          transform: scale(1) rotate(0deg);
-        }
-        50% {
-          transform: scale(1.5) rotate(180deg);
-        }
-        100% {
-          transform: scale(1) rotate(360deg);
-        }
-      }},
+      keyframes: {'rotateAndDeform': {
+
+        '0%':{transform: 'scale(1) rotate(0deg)'},
+        '50%':{transform: 'scale(1.5) rotate(180deg)'},
+        '100%':{transform: 'scale(1) rotate(360deg)'},
+      }, 'trans': {
+        '0%, 100%': { transform: 'translateX(40px)' },
+        '50%': { transform: 'translateX(0)' }
+      },
+      'transL':{
+        '0% ,100%':{transform:'translate(-40px)'},
+        '50%':{transform:'translateX(0)'}
+      }
+
+     },
       
       animation :{
-        animation: rotateAndDeform 5s linear infinite;
+        'rotate': 'rotateAndDeform 2s linear infinite ' ,
+        'trans-right': 'trans 1.5s ease-in-out infinite',
+        'trans-left':'transL 1.5s ease-in-out infinite'
       },
       
      
