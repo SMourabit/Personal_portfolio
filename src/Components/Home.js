@@ -10,9 +10,9 @@ function Home() {
         <div className='flex flex-col absolute top-[5.5rem] left-[0.78rem] w-1/4 gap-3  md:top-[8.25rem] lg:left-[16rem] lg:top-[13rem] 
   '>
 
-          <a href="mailto:soukainamourabit@outlook.fr" target="_blank" rel="noreferrer"><MdOutlineEmail className="text-[25px] lg:text-[36.5px]" /></a>
-          <a href="www.linkedin.com/in/soukaina-mourabit-253a33240" target="_blank" rel="noreferrer"> <BsLinkedin className="text-[25px] lg:text-[32px]" /></a>
-          <a href="https://github.com/soukaina203" target="_blank" rel="noreferrer"> <BsGithub className="text-[25px] lg:text-[32px]" /></a>
+          <a href="mailto:soukainamourabit@outlook.fr" target="_blank" rel="noreferrer"><MdOutlineEmail className="text-[25px] lg:text-[32.5px]" /></a>
+          <a href="www.linkedin.com/in/soukaina-mourabit-253a33240" target="_blank" rel="noreferrer"> <BsLinkedin className="text-[25px] lg:text-[28px]" /></a>
+          <a href="https://github.com/soukaina203" target="_blank" rel="noreferrer"> <BsGithub className="text-[25px] lg:text-[28px]" /></a>
 
 
 
@@ -38,6 +38,7 @@ function Home() {
         <div className=''>
           <button type="button" class="text-white bg-green-light ml-3   border border-gray-200 focus:ring-4 focus:outline-none
            focus:ring-gray-100 font-medium rounded-lg text-sm px-4 py-1.5 text-center inline-flex items-center 
+           lg:px-4 lg:py-[2px]
             ">
             <a href="cv.pdf" download className='flex flex-row gap-2 '>
 
