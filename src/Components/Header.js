@@ -3,29 +3,29 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 import { BiSolidHome } from "react-icons/bi";
-import { BsFillPersonFill } from "react-icons/bs";
+import { BsFillPersonFill, BsFillTelephoneFill } from "react-icons/bs";
 import { FiSettings } from "react-icons/fi";
 import { GrProjects } from "react-icons/gr";
 function Header() {
 
   const [isClicked, setClicked] = useState({ menuIcon: true, exitIcon: false });
 
-  let Toggle = () => {
+  let hrefggle = () => {
     isClicked.menuIcon ? setClicked({ menuIcon: false, exitIcon: true }) : setClicked({ menuIcon: true, exitIcon: false });
 
   };
   return (
     <div className="">
-      <div className="fixed bottom-[88px] w-full border-t-[2px]  h-[2.5rem] z-20  md:fixed md:top-0 md:w-[92%] md:bg-white">
+      <div className="fixed bothrefm-[88px] w-full border-t-[2px]  h-[2.5rem] z-20  md:fixed md:hrefp-0 md:w-[92%] md:bg-white ">
         <h1 className="font-bold p-5 mt-[-0.8rem]">SM</h1>
-        <button className="text-2xl absolute bottom-[0.5rem] right-2  z-40" onClick={() => { Toggle(); }}>
+        <buthrefn className="text-2xl absolute bothrefm-[0.5rem] right-2  z-40 lg:hidden" onClick={() => { hrefggle(); }}>
           {isClicked.menuIcon ? (<GiHamburgerMenu className="lg:hidden" />) : (<MdOutlineClose className="lg:hidden " />)}
-        </button>
+        </buthrefn>
 
         {isClicked.menuIcon}
         {isClicked.menuIcon ? " "
           :
-          <div className={`flex justify-center h-10 z-20 	fixed bottom-[6.5rem] p-8 w-full animate-showUp bg-white  md:top-7 `}>
+          <div className={`flex justify-center h-10 z-20 	fixed bothrefm-[6.5rem] p-8 w-full animate-showUp bg-white  md:hrefp-7 lg:hidden`}>
             <ul className="flex gap-7 md:mt-[-1rem]">
               <li>
                 <a href="#Home" className='icon-link  hover:text-bg-darkRed duration-500' title="Home">
@@ -47,7 +47,11 @@ function Header() {
                   <GrProjects className="text-[26px]"/>
                 </a>
               </li>
-           
+              <li>
+                <a href="#Contact" className='icon-link hover:text-bg-darkRed duration-500' title="Projects">
+                  <BsFillTelephoneFill className="text-[26px]"/>
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -55,15 +59,17 @@ function Header() {
 
         }
         {/* For Large Screens */}
-        <div className="hidden md:hidden  lg:flex relative top-[-5rem] justify-center w-[100%] h-28
+        <div className="hidden md:hidden  lg:flex relative hrefp-[-5rem] justify-center w-[100%] h-28  lg:mr-[18rem]
          items-center font-semibold lg:ml-[9rem] lg:text-[17px]">
-          {/* <ul className="flex flex-row gap-[7rem]  mt-[-3rem] lg:mr-[18rem] ">
+          <ul className="flex flex-row gap-11  mt-[-3rem]  lg:mt-[-10rem] lg:text-[19px]">
 
-          <Link to="/" className='hover:text-bg-darkRed duration-500'>HOME </Link>
-          <Link to="/about" className='hover:text-bg-darkRed duration-500'>ABOUT</Link>
-          <Link to="/contact" className='hover:text-bg-darkRed  duration-500'>CONTACT</Link>
+          <a href="#Home" className='underlineHover'>Home </a>
+          <a href="#About" className='underlineHover'>About</a>
+          <a href="#Skills" className='underlineHover'>Skills</a>
+          <a href="#Portfolio" className='underlineHover'>Projects</a>
+          <a href="#Contact" className='underlineHover'>Contact</a>
 
-          </ul> */}
+          </ul>
 
 
         </div>

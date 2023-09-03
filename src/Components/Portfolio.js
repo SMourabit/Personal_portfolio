@@ -19,9 +19,12 @@ function Portfolio() {
   };
 
   return (
-    <div className='h-[63rem] md:h-[45rem] mt-5 p-6 animate-showUp  md:mt-0' id='Portfolio'>
+    <div className='h-[63rem] md:h-[45rem] mt-5 p-6 animate-showUp  md:mt-0 lg:h-[30rem] ' id='Portfolio'>
       <h2 className='text-center text-[25px] font-bold mb-6 bg-gradient-to-r from-green-medium from-10% to-green-light to-60% text-transparent bg-clip-text '>Projects</h2>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+      <div className='lg:flex lg:justify-center'>
+
+      
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4  lg:place  lg:w-[59rem] '>
         {websites.map((e, i) => (
           <div key={e} className='bg-gray-300 rounded-lg overflow-hidden shadow-lg'>
             <img className='w-full h-48 ' src={`${i}.jpg`} alt='' />
@@ -66,6 +69,7 @@ function Portfolio() {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );
