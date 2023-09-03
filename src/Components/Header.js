@@ -24,7 +24,7 @@ function Header() {
         {isClicked.menuIcon}
         {isClicked.menuIcon ? " "
           :
-          <div className={`flex justify-center h-10 z-20 	fixed bottom-[6.5rem] p-8 w-full animate-showUp bg-white  md:top-7 `}>      
+          <div className={`flex justify-center h-10 z-20 	fixed bottom-[2.5rem] p-8 w-full animate-showUp bg-white  md:top-7 `}>      
                 <ul className="flex gap-7 md:mt-[-1rem]">
               <li>
                 <a href="#Home" className='icon-link  hover:text-bg-darkRed duration-500' title="Home">
