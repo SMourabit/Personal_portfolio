@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SMourabit/Personal_portfolio/static/css/main.4e52b62d.css",
+    "main.js": "/SMourabit/Personal_portfolio/static/js/main.498284f0.js",
+    "index.html": "/SMourabit/Personal_portfolio/index.html",
+    "main.4e52b62d.css.map": "/SMourabit/Personal_portfolio/static/css/main.4e52b62d.css.map",
+    "main.498284f0.js.map": "/SMourabit/Personal_portfolio/static/js/main.498284f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e52b62d.css",
+    "static/js/main.498284f0.js"
+  ]
+}
