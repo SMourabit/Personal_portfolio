@@ -9,7 +9,7 @@ import Services from './Components/Services';
 
 function App() {
   return (
-    <div className="flex flex-col gap-0">
+    <div className="flex flex-col gap-0 overflow-x-hidden" >
     <Header/>
     <Home />
     <About />

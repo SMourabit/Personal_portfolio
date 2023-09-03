@@ -10,23 +10,24 @@ function Header() {
 
   const [isClicked, setClicked] = useState({ menuIcon: true, exitIcon: false });
 
-  let hrefggle = () => {
+  let Toggle  = () => {
     isClicked.menuIcon ? setClicked({ menuIcon: false, exitIcon: true }) : setClicked({ menuIcon: true, exitIcon: false });
 
   };
   return (
     <div className="">
-      <div className="fixed bothrefm-[88px] w-full border-t-[2px]  h-[2.5rem] z-20  md:fixed md:hrefp-0 md:w-[92%] md:bg-white ">
+      <div className="fixed bottom-[88px] w-full border-t-[2px]  h-[2.5rem] z-20  md:fixed md:top-0 md:w-[100%] bg-white
+       ">
         <h1 className="font-bold p-5 mt-[-0.8rem]">SM</h1>
-        <buthrefn className="text-2xl absolute bothrefm-[0.5rem] right-2  z-40 lg:hidden" onClick={() => { hrefggle(); }}>
+        <button className="text-2xl absolute bottom-[0.5rem] right-2  z-40" onClick={() => { Toggle(); }}>
           {isClicked.menuIcon ? (<GiHamburgerMenu className="lg:hidden" />) : (<MdOutlineClose className="lg:hidden " />)}
-        </buthrefn>
+        </button>
 
         {isClicked.menuIcon}
         {isClicked.menuIcon ? " "
           :
-          <div className={`flex justify-center h-10 z-20 	fixed bothrefm-[6.5rem] p-8 w-full animate-showUp bg-white  md:hrefp-7 lg:hidden`}>
-            <ul className="flex gap-7 md:mt-[-1rem]">
+          <div className={`flex justify-center h-10 z-20 	fixed bottom-[6.5rem] p-8 w-full animate-showUp bg-white  md:top-7 `}>      
+                <ul className="flex gap-7 md:mt-[-1rem]">
               <li>
                 <a href="#Home" className='icon-link  hover:text-bg-darkRed duration-500' title="Home">
                   <BiSolidHome className="text-[26px]" />

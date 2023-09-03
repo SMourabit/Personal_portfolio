@@ -1,14 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
+#Hs {
 overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 .underlineHover::after {
   content: "";
   display: block;

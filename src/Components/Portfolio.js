@@ -31,8 +31,10 @@ function Portfolio() {
             <div className='p-4'>
               <a
                 href={e.link}
+                rel="noreferrer"
                 className='text-white bg-green-light ml-3 border border-gray-200 focus:ring-4 focus:outline-none
                 focus:ring-gray-100 font-medium rounded-lg text-sm px-4 py-1.5 text-center inline-flex items-center '
+                target="_blank"
               >
                 Go Live
                 <svg

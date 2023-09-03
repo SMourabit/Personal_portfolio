@@ -17,9 +17,12 @@ function About() {
 
               <div className='w-full text-center mt-2 flex justify-center '>
                 <img src="3.jpg" alt="" className='rounded-sm w-[12rem] h-[7rem]
-                 md:w-[13rem] md:h-[8rem] md:relative md:top-[2.25rem] md:left-[-0.75rem] 
-                 lg:w-[21rem] lg:h-[16rem]
+               md:hidden
                  ' />
+                <img src="4.jpg" alt="" className=' hidden
+               
+                  md:w-[13rem] md:h-[8rem] md:relative md:top-[2.25rem] md:left-[-0.75rem]  md:block
+                 lg:w-[21rem] lg:h-[16rem]' />
               </div>
 
               <p class="text-[15px] md:text-base lg:text-lg text-gray-500  font-semibold ml-2 mr-2 mt-[2rem]
