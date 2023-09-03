@@ -15,8 +15,8 @@ function Header() {
 
   };
   return (
-    <div >
-      <div className="fixed bottom-[88px] w-full border-t-[2px]   bg-white h-[2.5rem] z-20">
+    <div className="">
+      <div className="fixed bottom-[88px] w-full border-t-[2px]  h-[2.5rem] z-20  md:fixed md:top-0 md:w-[92%] md:bg-white">
         <h1 className="font-bold p-5 mt-[-0.8rem]">SM</h1>
         <button className="text-2xl absolute bottom-[0.5rem] right-2  z-40" onClick={() => { Toggle(); }}>
           {isClicked.menuIcon ? (<GiHamburgerMenu className="lg:hidden" />) : (<MdOutlineClose className="lg:hidden " />)}
@@ -25,8 +25,8 @@ function Header() {
         {isClicked.menuIcon}
         {isClicked.menuIcon ? " "
           :
-          <div className={`flex justify-center h-10 z-20 	fixed bottom-[6.5rem] p-8 w-full animate-showUp bg-white `}>
-            <ul className="flex gap-7">
+          <div className={`flex justify-center h-10 z-20 	fixed bottom-[6.5rem] p-8 w-full animate-showUp bg-white  md:top-7 `}>
+            <ul className="flex gap-7 md:mt-[-1rem]">
               <li>
                 <a href="#Home" className='icon-link  hover:text-bg-darkRed duration-500' title="Home">
                   <BiSolidHome className="text-[26px]" />

@@ -4,7 +4,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 function Home() {
   return (
-    <div className="flex w-full flex-col  text-green-dark z-0 h-[30rem] animate-showUp" id='Home'>
+    <div className="flex w-full flex-col  text-green-dark z-0 h-[30rem] md:h-[25rem] md:mt-[1.25rem] animate-showUp " id='Home'>
       <div className='flex flex-row w-full'>
         <div className='flex flex-col absolute top-[5.5rem] left-[0.78rem] w-1/4 gap-3  md:top-[8.25rem]
   '>
@@ -26,7 +26,7 @@ function Home() {
       </div>
       <div className="flex flex-col gap-3 relative top-12 md:top-[-6.75rem] md:left-[3.5rem] ">
         <h1 className="text-2xl font-bold text-black leading-7 ml-3 mt-6">Hi, I'm Soukaina</h1>
-        <p className="text-[20px] ml-3  text-gray-700 font-semibold mt-[-7.5px]">FullStack Developer</p>
+        <p className="text-[20px]   text-gray-700 font-semibold ml-3 mt-[-7.5px]">FullStack Developer</p>
         <p className="text-gray-600 text-[20px] ml-3 leading-6 md:w-[17.5rem] ">
           High level of knowledge in web <br />
           development, having the privilege of collaborating with diverse teams
