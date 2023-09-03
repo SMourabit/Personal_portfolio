@@ -5,10 +5,10 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 function Contact() {
   let cordonnees = [
-    { name: 'Call Me ', dec: '0689737196', icon: <BsTelephone className='relative left-0 top-6 text-[26px] text-green-light lg:top-5' /> },
-    { name: 'Email ', dec: 'soukainamourabit@outlook.fr', icon: <MdOutlineEmail className='relative  left-0 top-6  text-[26px] text-green-light lg:top-5' /> },
-    { name: 'Linkdn ', dec: 'www.linkedin.com/in/soukaina-mourabit-253a33240', icon: <BsLinkedin className='relative left-0 top-6  text-[26px] text-green-light lg:top-5' /> },
-    { name: 'Location ', dec: 'Temara Maroc', icon: <GrLocation className='relative left-0 top-6  text-[26px]  text-green-light lg:top-5' /> },
+    { name: 'Call Me ', dec: '0689737196', icon: <BsTelephone className='relative left-0 top-6 text-[26px] text-green-light lg:top-6 lg:left-6' /> },
+    { name: 'Email ', dec: 'soukainamourabit@outlook.fr', icon: <MdOutlineEmail className='relative  left-0 top-6  text-[26px] text-green-light lg:top-6 lg:left-6' /> },
+    { name: 'Linkdn ', dec: 'www.linkedin.com/in/soukaina-mourabit-253a33240', icon: <BsLinkedin className='relative left-0 top-6  text-[26px] text-green-light lg:top-6 lg:left-6' /> },
+    { name: 'Location ', dec: 'Temara Maroc', icon: <GrLocation className='relative left-0 top-6  text-[26px]  text-green-light lg:top-6 lg:left-6' /> },
   ];
 
   return (

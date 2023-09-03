@@ -18,11 +18,11 @@ function Home() {
 
 
         </div>
-        <div className='w-[100%] group   '>
-          <div class="
+        <div className='w-[100%]  group  '>
+          <div class=" group 
           ">
             <img src="6.jpg" className="w-[10rem] h-[10rem] relative top-11 left-[5rem] rounded-full bg-green-light md:top-[5rem]  md:left-[25rem]
-          lg:w-[15rem] lg:h-[15rem] lg:left-[45rem] lg:top-[8rem] border-4 border-green-light" alt="" />
+          lg:w-[15rem] lg:h-[15rem] lg:left-[45rem] lg:top-[8rem] border-4 border-green-light animate-trans-right" alt="" />
 
           </div>
 
