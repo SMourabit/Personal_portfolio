@@ -15,26 +15,25 @@ function Services() {
          md:border-4 md:border-green-light md:h-full lg:border-2 '>
             <BiCodeCurly className='text-[1.8rem] relative  top-7 left-3 ' />
             <h1 className='text-center  text-[20px]   text-gray-700 font-bold'>
-              FrontEnd Dev  </h1>
+              FrontEnd   </h1>
 
 
             <p className='text-sm md:text-base lg:text-lg font-semibold ml-3 mr-4 lg:text-[20px]
             lg:normal 
             '>
-              Developing modern and responsive interfaces using those technologies
-              HTML CSS JavaScript TailwindCSS ReactJs
+              Developing modern and responsive interfaces using 
+              HTML , CSS , JavaScript , TailwindCSS , ReactJs
             </p>
           </div>
 
           <div className='rounded-lg w-full h-[8rem]   md:border-4 md:border-green-light  md:h-full lg:border-2 '>
             <GrCode className='text-[1.8rem] relative  top-7 left-3' />
-            <h1 className='text-center text-[20px]   text-gray-700 font-bold'>  BackEnd Dev  </h1>
+            <h1 className='text-center text-[20px]   text-gray-700 font-bold'>  BackEnd   </h1>
 
             <p className='text-sm md:text-base lg:text-lg  font-semibold ml-3 mr-4  lg:text-[20px]
             lg:normal '>
-              Handling data storage, processing requests, and ensuring the smooth functioning of the application's core
-              functionality using
-              PHP Laravel
+              Handling data storage, processing requests using
+              PHP , Laravel
             </p>
           </div>
 
@@ -45,19 +44,19 @@ function Services() {
 
             <p className='text-sm md:text-base lg:text-lg font-semibold  ml-3 mr-4    lg:text-[20px]
             lg:normal '>
-              manipulation of data to support the functionality and performance of applications and systems using
-              SQL NoSql
+              manipulation of data using
+              SQL , NoSql
             </p>
           </div>
 
           <div className='rounded-lg w-full h-[8rem]   md:border-4 md:border-green-light  md:h-full lg:border-2'>
             <BiCodeCurly className='text-[1.8rem] relative  top-7 left-3 ' />
-            <h1 className='text-center  text-[20px]   text-gray-700 font-bold'>  Other </h1>
+            <h1 className='text-center  text-[20px]   text-gray-700 font-bold'>  Tools </h1>
 
 
             <p className='text-sm md:text-base lg:text-lg font-semibold ml-3 mr-4  lg:text-[20px]
             lg:normal '>
-              Vs Code Git GitHub MySQL Figma MongoDb Scrum
+              Vs Code , Git , GitHub , MySQL , Figma , MongoDb
             </p>
           </div>
         </div>
