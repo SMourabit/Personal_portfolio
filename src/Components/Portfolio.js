@@ -24,7 +24,7 @@ function Portfolio() {
               <img className='w-full h-48 ' src={`${i}.jpg`} alt='' />
               <div className='mt-4 p-2  rounded-lg animate-showUp'>
                 {/* Content to be displayed when Tools button is clicked */}
-                <p className='text-gray-800 font-bold ml-3'>
+                <p className='text-gray-800 font-semibold lg:text-[21px] ml-3'>
                   {websites[i].techs}
                 </p>
               </div>

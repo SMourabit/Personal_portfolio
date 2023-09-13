@@ -30,7 +30,7 @@ function Home() {
       </div>
       <div className="flex flex-col gap-3 relative top-12 md:top-[-6.75rem] md:left-[3.5rem] lg:left-[18rem] ">
         <h1 className="text-2xl font-bold text-black leading-7 ml-3 mt-6 lg:text-[39px]">Hi, I'm Soukaina</h1>
-        <p className="text-[20px]   text-gray-700 font-semibold ml-3 mt-[-7.5px] lg:text-[22px]">FullStack Developer</p>
+        <p className="text-[20px]   text-gray-700  ml-3 mt-[-7.5px] font-semibold lg:text-[22px]">FullStack Developer</p>
         <p className="text-gray-600 text-[20px] ml-3 leading-6 md:w-[17.5rem] ">
         Taking my first steps  into the exciting<br />
           world of web development with  a strong passion for learning and creating on the web.
