@@ -32,8 +32,9 @@ function Home() {
         <h1 className="text-2xl font-bold text-black leading-7 ml-3 mt-6 lg:text-[39px]">Hi, I'm Soukaina</h1>
         <p className="text-[20px]   text-gray-700  ml-3 mt-[-7.5px] font-semibold lg:text-[22px]">FullStack Developer</p>
         <p className="text-gray-600 text-[20px] ml-3 leading-6 md:w-[17.5rem] ">
-        Taking my first steps  into the exciting<br />
-          world of web development with  a strong passion for learning and creating on the web.
+        
+          Quick learner and hard worker <br/>
+          Seeking a position with a fast-paced software company to extend my Web Development skills and knowledge
         </p>
         <div className=''>
           <button type="button" class="text-white bg-green-light ml-3   border border-gray-200 focus:ring-4 focus:outline-none

@@ -6,7 +6,7 @@ function Portfolio() {
     { link: 'https://soukaina203.github.io/M1/', techs: 'FrontEnd website using ReactJs TailwindCSS' },
     { link: 'https://soukaina203.github.io/cinema/', techs: 'FrontEnd website using ReactJs TailwindCSS' },
     {
-      link: 'https://www.linkedin.com/in/soukaina-mourabit-253a33240/recent-activity/all/',
+      link: 'https://www.linkedin.com/feed/update/urn:li:activity:7094819370966609920/',
       techs: 'FullStack renting website using ReactJs TailwindCSS Laravel Mysql'
     }
   ];

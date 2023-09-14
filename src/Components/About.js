@@ -30,8 +30,7 @@ function About() {
             lg:mt-16
             
             ">
-                I am a Full Stack Web Developer with a passion for building beautiful and user-friendly websites. I have a good understanding
-                of both front-end and back-end development.
+               A highly motivated junior web developer with a big passion to improve my skills , specializing in building beautiful and user-friendly web applications.
               </p>
             </div>
 
