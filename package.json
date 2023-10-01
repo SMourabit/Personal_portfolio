@@ -1,5 +1,7 @@
 {
   "name": "cv",
+  "homepage": "https://SMourabit.github.io/Personal_portfolio/",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
