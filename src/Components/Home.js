@@ -11,7 +11,7 @@ function Home() {
   '>
 
           <a href="mailto:soukainamourabit@outlook.fr" target="_blank" rel="noreferrer"><MdOutlineEmail className="text-[25px] lg:text-[32.5px]" /></a>
-          <a href="www.linkedin.com/in/soukaina-mourabit-253a33240" target="_blank" rel="noreferrer"> <BsLinkedin className="text-[25px] lg:text-[28px]" /></a>
+          <a href="https://www.linkedin.com/in/soukaina-mourabit-253a33240/" target="_blank" rel="noreferrer"> <BsLinkedin className="text-[25px] lg:text-[28px]" /></a>
           <a href="https://github.com/soukaina203" target="_blank" rel="noreferrer"> <BsGithub className="text-[25px] lg:text-[28px]" /></a>
 
 
@@ -30,10 +30,11 @@ function Home() {
       </div>
       <div className="flex flex-col gap-3 relative top-12 md:top-[-6.75rem] md:left-[3.5rem] lg:left-[18rem] ">
         <h1 className="text-2xl font-bold text-black leading-7 ml-3 mt-6 lg:text-[39px]">Hi, I'm Soukaina</h1>
-        <p className="text-[20px]   text-gray-700 font-semibold ml-3 mt-[-7.5px] lg:text-[22px]">FullStack Developer</p>
+        <p className="text-[20px]   text-gray-700  ml-3 mt-[-7.5px] font-semibold lg:text-[22px]">FullStack Developer</p>
         <p className="text-gray-600 text-[20px] ml-3 leading-6 md:w-[17.5rem] ">
-        Taking my first steps  into the exciting<br />
-          world of web development with  a strong passion for learning and creating on the web.
+        
+          Quick learner and hard worker <br/>
+          Seeking a position with a fast-paced software company to extend my Web Development skills and knowledge
         </p>
         <div className=''>
           <button type="button" class="text-white bg-green-light ml-3   border border-gray-200 focus:ring-4 focus:outline-none
